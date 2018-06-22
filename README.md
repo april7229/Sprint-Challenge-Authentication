@@ -62,7 +62,7 @@
 
 ### Step 4: _GET_ your Jokes!
 
-* Grab your Token sent back to you in JWT format from _/login_.
+{x}* Grab your Token sent back to you in JWT format from _/login_.
 * Send a `GET` request up to `/api/jokes` with the appropriate header and token.
 * Without the appropriate request header you'll get an error that looks like this from the `jwt` package
 
