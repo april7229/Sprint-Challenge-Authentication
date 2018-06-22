@@ -34,7 +34,7 @@
 
 ### Step 1: Implement your User Schema in `api/models/userModels.js`
 
-* The required fields are `username` (must be unique and required) and `password`.
+*[x] The required fields are `username` (must be unique and required) and `password`.
 
 ```json
 {
@@ -43,9 +43,9 @@
 }
 ```
 
-* Next we'll use bcrypt to set up a `pre` hook on our `save` function for the UserSchema.
-* This pre save hook will act as middleware to encrypt our users passwords.
-* You can also take this time to set up a `checkPassword` method that can be used for comparing user passwords later on.
+* [x]Next we'll use bcrypt to set up a `pre` hook on our `save` function for the UserSchema.
+*[x] This pre save hook will act as middleware to encrypt our users passwords.
+* [x]You can also take this time to set up a `checkPassword` method that can be used for comparing user passwords later on.
 
 ### Step 2: Implement your Create User Functionality in `api/controllers/user.js`
 
@@ -78,3 +78,4 @@
 * In order to play around with a client server app, you'll need to set up your `cors` inside of `server.js` properly.
 * Using React and React Router, create a `Sign Up`, `Sign In` and `Jokes` page.
 * Once you have the functionality down, you'll be able to style it up a bit and play around with the jokes etc.
+np
